@@ -17,6 +17,7 @@ body {
 nav {
  padding: 64px;  /* espaçamento interno */
  grid-area: timeline;
+ overflow-y: scroll;
 }
 
 .memory {
