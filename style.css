@@ -9,6 +9,16 @@ body {
   color: #EAEAEa;
 }
 
+nav {
+ padding: 64px;  /* espaçamento interno */
+}
+
+.memory {
+  display: flex;
+  flex-direction: column;
+  gap: 16px; /* espaçamento*/
+}
+
 .memory small {
   color: #BEBEBF;
   font-size: 12px;
@@ -23,4 +33,10 @@ body {
   height: 280px;
   object-fit: cover; /* para a imagem continuar com o tamanho quando a tela é aumentada, apenas dá um zoom */
   border-radius: 8px; /* cantos arredondados */
+}
+
+.memory p {
+  font-size: 18px;
+  color: #bebebf;
+  line-height: 28px; /* espaçamento de uma linha para outra */
 }
