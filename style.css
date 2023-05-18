@@ -8,3 +8,19 @@ body {
   background-color: #121215;
   color: #EAEAEa;
 }
+
+.memory small {
+  color: #BEBEBF;
+  font-size: 12px;
+}
+
+.memory h1 {
+  font-size: 32px;
+}
+
+.memory img {
+  width: 100%;
+  height: 280px;
+  object-fit: cover; /* para a imagem continuar com o tamanho quando a tela é aumentada, apenas dá um zoom */
+  border-radius: 8px; /* cantos arredondados */
+}
