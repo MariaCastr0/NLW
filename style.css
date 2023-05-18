@@ -8,10 +8,15 @@ body {
   background-color: #121215;
   color: #EAEAEa;
   font-family: 'Roboto', sans-serif;
+  display: grid;
+  grid-template-areas: "profile timeline";
+  grid-template-columns: 1fr 1fr;
+  grid-template-rows: 100vh;
 }
 
 nav {
  padding: 64px;  /* espaçamento interno */
+ grid-area: timeline;
 }
 
 .memory {
@@ -44,4 +49,8 @@ nav {
   font-size: 18px;
   color: #bebebf;
   line-height: 28px; /* espaçamento de uma linha para outra */
+}
+
+aside {
+  grid-area: profile;
 }
