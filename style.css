@@ -57,6 +57,11 @@ nav {
   height: 280px;
   object-fit: cover; /* para a imagem continuar com o tamanho quando a tela é aumentada, apenas dá um zoom */
   border-radius: 8px; /* cantos arredondados */
+  transition: transform 0.3s ease-in-out;
+}
+
+.memory:hover img {
+  transform: scale(1.1);
 }
 
 .memory div {
@@ -64,10 +69,6 @@ nav {
   height: 280px;
   overflow: hidden;
   border-radius: 8px;
-}
-
-.memory:hover img {
-  transform: scale(1.1);
 }
 
 .memory p {
