@@ -17,6 +17,13 @@
   background-color: #9e9ea0;
 }
 
+@keyframes entering {
+  0% { background-color: red; }
+  30% { background-color: green; }
+  78% { opacity: 0; }
+  100% { opacity: 1; }
+}
+
 body {
   background-color: #121215;
   color: #EAEAEa;
