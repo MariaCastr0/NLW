@@ -59,6 +59,13 @@ nav {
   border-radius: 8px; /* cantos arredondados */
 }
 
+.memory div {
+  width: 100%;
+  height: 280px;
+  overflow: hidden;
+  border-radius: 8px;
+}
+
 .memory:hover img {
   transform: scale(1.1);
 }
